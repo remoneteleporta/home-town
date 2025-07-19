@@ -1,0 +1,93 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+    border: 1px solid rgb(233, 221, 221);
+    border-radius: 20px;
+    font-family: "Roboto Slab", serif;
+}
+
+#main-banner{
+    background-image: url("/images/shangai-city.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    padding: 200px 100px;
+    border-radius: 20px 20px 0 0;
+}
+
+h1{
+    background-color: #457B9D;
+    color:white;
+    font-size: x-large;
+    margin: auto;
+    padding: 6px 9px;
+    border-radius: 5px;
+}
+
+#sub-heading{
+    background-color: #1D3557;
+    color:white;
+    font-size: large;
+    margin: auto;
+    margin-top: 10px;
+    padding: 6px 9px;
+    border-radius: 5px;
+}
+
+#activities-section{
+    background-color: #F1FAEE;
+}
+
+#activities-title{
+    margin-top: 0px;
+    padding-top: 20px;
+    text-shadow: 2px 1px 1px rgb(176, 176, 176);
+}
+
+.activities{
+ display: flex;
+ flex-direction: row;
+ justify-content: space-around;
+ align-items: center;
+}
+
+.activities-list{
+    width: 300px;
+}
+
+.activity-pic{
+    width: 80px;
+    border-radius: 50px;
+}
+
+#guide-section{
+    display: flex;
+    flex-direction: row;
+    background-color: #A8DADC;
+    border-bottom: 5px solid #457B9D;
+    width: 400px;
+    height: 200px;
+    margin: 40px auto;
+    padding: 20px;
+    justify-content: space-around;
+}
+
+#guide-pic{
+    box-shadow: 8px 8px 5px rgb(176, 171, 171);
+}
+
+#guide-pic:hover{
+    box-shadow: 8px 8px 5px rgb(20, 33, 224);
+}
